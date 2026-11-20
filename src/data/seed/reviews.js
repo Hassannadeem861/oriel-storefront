@@ -1,0 +1,37 @@
+/**
+ * SAMPLE reviews for demonstration only. They are written for this demo,
+ * are not from real customers, and are labelled as such wherever shown.
+ * Product ratings are calculated from these entries, never hardcoded.
+ */
+export const reviews = [
+  { id: "r1", productId: "p_101", author: "Demo reviewer A.", country: "DE", rating: 5, title: "Comfortable for a full flight", body: "Wore them for a nine-hour flight without the usual ache around the ears. Noise cancelling is calm rather than aggressive.", date: "2026-10-02" },
+  { id: "r2", productId: "p_101", author: "Demo reviewer M.", country: "US", rating: 4, title: "Great sound, case is bulky", body: "Balanced, detailed sound and the multipoint switching works well. The travel case takes up more room than I expected.", date: "2026-09-21" },
+  { id: "r3", productId: "p_101", author: "Demo reviewer S.", country: "GB", rating: 5, title: "Glad the battery is replaceable", body: "The repairability is the reason I chose these and the sound quality is a bonus.", date: "2026-09-12" },
+  { id: "r4", productId: "p_103", author: "Demo reviewer K.", country: "SG", rating: 4, title: "Light and easy", body: "Very light and fold small. Warm tuning suits podcasts and jazz.", date: "2026-03-14" },
+  { id: "r5", productId: "p_103", author: "Demo reviewer L.", country: "AU", rating: 5, title: "Buttons over touch", body: "Physical buttons are a relief after years of misfiring touch controls.", date: "2026-01-30" },
+  { id: "r6", productId: "p_105", author: "Demo reviewer R.", country: "CA", rating: 4, title: "Secure fit", body: "Stay in on runs. Noise cancelling is decent for the size.", date: "2026-10-28" },
+  { id: "r7", productId: "p_201", author: "Demo reviewer T.", country: "FR", rating: 5, title: "Perfect daily watch", body: "38 mm wears beautifully on a smaller wrist. The dial is very easy to read.", date: "2026-06-11" },
+  { id: "r8", productId: "p_201", author: "Demo reviewer J.", country: "US", rating: 5, title: "Excellent finishing", body: "Finishing is well above what I expected at this price. Keeps good time.", date: "2026-05-02" },
+  { id: "r9", productId: "p_201", author: "Demo reviewer P.", country: "NL", rating: 4, title: "Strap could be softer", body: "Love the watch. The canvas strap needed a week to break in.", date: "2026-04-17" },
+  { id: "r10", productId: "p_203", author: "Demo reviewer H.", country: "AE", rating: 5, title: "Mesmerising", body: "I catch myself watching the balance wheel during meetings.", date: "2026-02-08" },
+  { id: "r11", productId: "p_204", author: "Demo reviewer E.", country: "SE", rating: 4, title: "Battery as promised", body: "A week of use including three runs with GPS. App is simple.", date: "2026-11-02" },
+  { id: "r12", productId: "p_301", author: "Demo reviewer D.", country: "GB", rating: 5, title: "Survived a wet winter", body: "Daily commute by bike through a London winter and the laptop stayed dry.", date: "2026-04-03" },
+  { id: "r13", productId: "p_301", author: "Demo reviewer N.", country: "JP", rating: 4, title: "Smart and practical", body: "Looks smart enough for the office. I would like one more internal pocket.", date: "2026-03-22" },
+  { id: "r14", productId: "p_302", author: "Demo reviewer V.", country: "US", rating: 5, title: "Ages beautifully", body: "Six months in and the leather has darkened nicely.", date: "2026-05-15" },
+  { id: "r15", productId: "p_303", author: "Demo reviewer C.", country: "DE", rating: 5, title: "Exactly the right size", body: "Fits phone, wallet, keys and sunglasses. The magnetic flap is a nice touch.", date: "2026-10-30" },
+  { id: "r16", productId: "p_401", author: "Demo reviewer B.", country: "CA", rating: 5, title: "Heavy in the best way", body: "Dense fabric that has not pilled after many washes.", date: "2026-10-01" },
+  { id: "r17", productId: "p_401", author: "Demo reviewer F.", country: "PK", rating: 4, title: "Runs slightly short", body: "Lovely quality. Body is a little cropped, so size up if you prefer length.", date: "2026-09-18" },
+  { id: "r18", productId: "p_402", author: "Demo reviewer G.", country: "US", rating: 5, title: "Collar holds up", body: "Finally a t-shirt where the collar does not go wavy.", date: "2025-12-09" },
+  { id: "r19", productId: "p_406", author: "Demo reviewer O.", country: "AU", rating: 5, title: "Lovely fades", body: "Stiff for the first two weeks, then excellent. Free hemming was quick.", date: "2026-07-20" },
+  { id: "r20", productId: "p_501", author: "Demo reviewer I.", country: "GB", rating: 5, title: "Moss glaze is beautiful", body: "Previewing the glaze in 3D helped me choose. The real glaze has lovely depth.", date: "2026-11-10" },
+  { id: "r21", productId: "p_501", author: "Demo reviewer W.", country: "FR", rating: 5, title: "Handmade character", body: "Small variations make it feel special. Well packed.", date: "2026-11-06" },
+  { id: "r22", productId: "p_503", author: "Demo reviewer Y.", country: "SG", rating: 4, title: "Great for tea", body: "Nice weight in the hand. Slightly smaller than I imagined.", date: "2026-02-14" },
+  { id: "r23", productId: "p_505", author: "Demo reviewer Q.", country: "NL", rating: 5, title: "Ideal reading light", body: "Warm light and the foot dimmer is very convenient.", date: "2026-03-03" },
+  { id: "r24", productId: "p_507", author: "Demo reviewer Z.", country: "US", rating: 4, title: "Subtle scent", body: "Pleasant woody scent, not overpowering. Burns evenly.", date: "2026-10-19" },
+  { id: "r25", productId: "p_601", author: "Demo reviewer A.", country: "GB", rating: 5, title: "Delivery team were great", body: "Comfortable, firm seat and the moss velvet is gorgeous.", date: "2026-07-01" },
+  { id: "r26", productId: "p_601", author: "Demo reviewer U.", country: "DE", rating: 4, title: "Firm at first", body: "Cushions were firm initially and have softened nicely.", date: "2026-06-12" },
+  { id: "r27", productId: "p_702", author: "Demo reviewer X.", country: "JP", rating: 5, title: "Lovely typing feel", body: "Soft, quiet and consistent. Hot-swap makes experimenting easy.", date: "2026-11-01" },
+  { id: "r28", productId: "p_701", author: "Demo reviewer M.", country: "CA", rating: 4, title: "Clean and quiet", body: "Good switching between laptop and tablet.", date: "2026-04-25" },
+  { id: "r29", productId: "p_606", author: "Demo reviewer S.", country: "AE", rating: 4, title: "Comfortable chairs", body: "Bought six for our dining table. Easy to clean.", date: "2025-10-11" },
+  { id: "r30", productId: "p_704", author: "Demo reviewer L.", country: "SE", rating: 5, title: "Ice all day", body: "Still had ice in it after a full day in a hot car.", date: "2026-08-08" },
+];
