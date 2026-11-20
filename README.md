@@ -4,6 +4,9 @@ A premium e-commerce frontend built with Next.js 16 (App Router), JavaScript,
 Tailwind CSS v4, shadcn/ui, React Three Fiber, GSAP and Lenis. It runs fully on
 seeded demo data with a simulated API, so it can be explored without a backend.
 
+**Live demo:** https://oriel-storefront.vercel.app
+**Repository:** https://github.com/Hassannadeem861/oriel-storefront
+
 > **Demo mode:** checkout, payments and orders are simulated. No payment is
 > processed and nothing is shipped. Reviews are sample content and labelled as such.
 
